@@ -1,13 +1,13 @@
-<h3 align="center">Previsão do Tempo (API: Open Weather) com Angular e TypeScript</h3>
+<h3 align="center">Previsión del Tiempo (API: Open Weather) con Angular y TypeScript</h3>
 
 <h4 align="center">Comandos</h4>
 
-***Instalação do Angular:***
+***Instalación de Angular:***
 ```
 npm install -g @angular/cli
 ```
 
-***Verificando as versões:***
+***Verificando las versiones:***
 ```
 node -v
 ```
@@ -15,12 +15,12 @@ node -v
 ng version
 ```
 
-***Criando o projeto:***
+***Creando el proyecto:***
 ```
 ng new weather
 ```
 
-***Criando as páginas:***
+***Creando las páginas:***
 ```
 ng g m pages/home
 ```
@@ -28,7 +28,7 @@ ng g m pages/home
 ng g m pages/bookmarks
 ```
 
-***Criando os componentes:***
+***Creando los componentes:***
 ```
 ng g c pages/home --type page
 ```
@@ -36,7 +36,7 @@ ng g c pages/home --type page
 ng g c pages/bookmarks --type page
 ```
 
-***Iniciando o Projeto:***
+***Iniciando el Proyecto:***
 ```
 ng s
 ```
@@ -44,7 +44,7 @@ ng s
 http://localhost:4200/
 ```
 
-***Desativar Warning:***
+***Desactivar Advertencia:***
 ```
 ng config -g cli.warnings.versionMismatch false
 ```
@@ -62,7 +62,7 @@ ng add @ngrx/store-devtools
 ng add @ngrx/effects
 ```
 
-***Criando os componentes***
+***Creando los componentes***
 ```
 ng g c pages/home/components/current-weather
 ```
@@ -70,9 +70,9 @@ ng g c pages/home/components/current-weather
 ng g c /shared/components/detailed-weather
 ```
 
-<h3 align="center">Links</h3>
+<h3 align="center">Enlaces</h3>
 
-[API: OpenWeather - Keys](https://home.openweathermap.org/api_keys) <br>
+[API: OpenWeather - Claves](https://home.openweathermap.org/api_keys) <br>
 [jv-weather](https://github.com/JGhignatti/jv-weather) <br>
 [NGRX](https://ngrx.io/) <br>
 [NGRX: Store](ngrx.io/guide/store) <br>
